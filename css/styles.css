@@ -409,6 +409,7 @@ img {
     justify-content: center;
     align-items: center;
     fill: currentColor;
+    border-radius: 4%;
 }
 
 .icon-company {
