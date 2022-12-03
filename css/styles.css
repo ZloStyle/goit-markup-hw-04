@@ -10,6 +10,7 @@
     --mailtel-color:#rgba(255, 255, 255, 0.6);
     --border: #ececec;
     --icon-color: #afb1b8;
+    --icon-background: rgba(255, 255, 255, 0.1);
 }
 
 /*header*/
@@ -245,6 +246,7 @@ img {
     background-position: center;
     background-color: var(--team-color);
     margin-bottom: 30px;
+    border-radius: 4%;
 }
 
 .icon-antenna::before{
@@ -304,7 +306,7 @@ img {
 }
 
 .team-text{
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -313,9 +315,9 @@ img {
 /*icon*/
 
 .link-icon{
-    padding: 12px;
     width: 100%;
     height: 100%;
+    justify-content: center;
     align-items:center;
     display: flex;
     border-radius: 50%;
@@ -338,8 +340,6 @@ img {
     display: flex;
     justify-content: center;
     column-gap:10px;
-    margin-left: 32px;
-    margin-right: 32px;
     margin-bottom: 30px;
 }
 
@@ -377,16 +377,11 @@ img {
 
 /*clients*/
 
-.client-item{
- 
-}
-
 .section-clients{
     padding-top: 94px;
 }
 
 .client-list{
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,10 +407,6 @@ img {
     border-radius: 4%;
 }
 
-.icon-company {
- 
-}
-
 /*footer*/
 
 footer{
@@ -425,6 +416,7 @@ footer{
 
 .foot{
     display: flex;
+    align-items: baseline;
 }
 
 .footerr{
@@ -467,14 +459,16 @@ footer{
 
 /*footer-social*/
 
-.link-icon{
-    background: rgba(255, 255, 255, 0.1);
+.icon-footer{
+    background:var(--icon-background);
+    height: 44px;
+    width: 44px;
+    
 }
 
 .social-footer {
     justify-content: center;
     margin-left: 70px;
-    margin-top: 12px;
 
 }
 
@@ -550,7 +544,7 @@ footer{
     border-right: 1px solid #EEEEEE;;
 }
 .portfolio-list .item{
-    background-color: var(--background-color)
+    background-color: var(--background-color);
 }
 
 
